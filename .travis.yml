@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '5.0'
+deploy:
+  provider: npm
+  email: jimwhimpey@me.com
+  api_key:
+    secure: ugOL1TE7ySoKP+QNHv8FaoU49XYKQGkh3+vG5xJMGw/ykuYAHtOI+YRIgZ8KUFVQFHPcm08oc+CYGb8AKSJk2s7v/tMuIL9S8iaLoU/tuiLHvbRFNRwOmKDbcNoqYpTthhPeish0u7C4ffvxWxrsscV8biK4EQwJFIyLwIMcw9/DEO9p88ADsXCxiCGWHSBzN7Lonol488PP+X00QoUOk2IctY+HPFosaIs9SkYxd5f8q0vWJzMW9ZFhGRahq+DxaLAu5b6ygU36suakMcGkBZs7BemNzC2GxoqiTBvhkTYtiWpZb3frjDFsCYxBCuIelDsB7fB7e+MLm8Le1ioRex5bBf0R6hjO+hA3yco3q+AKe6WIuKbkHkOXrnX98SmEvS4/p2opNekZbLk784NYja3x5et1+VEu1jHcwHEqKtWYSxYWv5Sb82Sx1d6wxJMfyR/WNM/5VAERPe3iytteUnDC6CwrtMxczKsZ0XPp7yuyyWBtktpa++/b53ghnA6J+ibxr0+etdLEdizoR40zUwPg1xEvOE+uMBAgPL9EbPDlgQzVR71BFUxEEHPGLqazJ2owJ6IZU6uk9eFVyVRxdQzDJiDchlS0rffdGipdd0WqpTuoHFPVwCc1Q404gc6EcGV0ohkENK7JZ7ONXFXuXoKV2i06v3Uah35+e/fWvbU=
+  on:
+    tags: true
+    repo: flickr/flickr

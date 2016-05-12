@@ -1,0 +1,24 @@
+{
+  "name": "flickr",
+  "version": "1.0.0",
+  "description": "Placeholder package",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flickr/flickr.git"
+  },
+  "keywords": [
+    "flickr",
+    "sdk",
+    "api"
+  ],
+  "author": "Jim Whimpey <jimwhimpey@me.com> (http://jimwhimpey.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flickr/flickr/issues"
+  },
+  "homepage": "https://github.com/flickr/flickr#readme"
+}
